@@ -1,0 +1,39 @@
+[
+    {
+
+      "title": "Project 1",
+      "github": "link to github",
+      "deployed": "link to deployed page",
+      "description": "describe the project"
+    },
+    {
+        "title": "Project 2",
+        "github": "link to github",
+        "deployed": "link to deployed page",
+        "description": "describe the project"
+    },
+    {
+        "title": "Project 3",
+        "github": "link to github",
+        "deployed": "link to deployed page",
+        "description": "describe the project"
+    },
+    {
+        "title": "Project 4",
+        "github": "link to github",
+        "deployed": "link to deployed page",
+        "description": "describe the project"
+    },
+    {
+        "title": "Project 5",
+        "github": "link to github",
+        "deployed": "link to deployed page",
+        "description": "describe the project"
+    },
+    {
+        "title": "Project 6",
+        "github": "link to github",
+        "deployed": "link to deployed page",
+        "description": "describe the project"
+    }
+  ]
