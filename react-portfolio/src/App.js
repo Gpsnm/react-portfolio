@@ -1,16 +1,17 @@
-import './index.css'
+import Header from './components/Header';
+import React from 'react';
+import "./index.css"
+import Home from './components/Home';
+import ProjectGallery from './components/ProjectGallery'
 
 function App() {
-  return (
-<div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-      <p className="text-3xl text-gray-700 font-bold mb-5">
-        Welcome!
-      </p>
-      <p className="text-gray-500 text-lg">
-        React and Tailwind CSS in action
-      </p>
-    </div>
-  );
+  return(
+    <div>
+  <Header />
+  <Home />
+  <ProjectGallery />
+  </div>
+  )
 }
 
 export default App;
