@@ -1,9 +1,17 @@
 import React from "react";
+import'./ProjectGallery.css'
 
 
-const ProjectGallery = () =>{
-<div>
-</div>
+
+
+const ProjectGallery = () => {
+    return(
+    <section className="project">
+            <div className="card">
+                <h3>iRecipe</h3>
+        </div>
+    </section>
+    )
 }
 
 

@@ -1,0 +1,21 @@
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+        display: inline;
+            margin-left: 10px;
+            font-size: 42px;
+            padding-top: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: aqua;
+}
