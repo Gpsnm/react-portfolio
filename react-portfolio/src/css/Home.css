@@ -1,6 +1,6 @@
 .home-container{
 background-color:black;
-height: auto;
+height: 100vh;
 width: auto;
 display: flex;
 }
@@ -35,7 +35,7 @@ p{
 }
 
 h1{
-    font-size: 38px;
+    font-size: 48px;
     font-weight: bolder;
     color: white;
 }
@@ -43,7 +43,7 @@ h1{
 .typewriter h1{
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #fff;
+    border-right: .1em solid #fff;
     /* The typewriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -63,7 +63,7 @@ h1{
     }
 
     to {
-        width: 80%
+        width: 100%
     }
 }
 
@@ -76,6 +76,6 @@ h1{
     }
 
     50% {
-        border-color: black;
+        border-color: white;
     }
 }

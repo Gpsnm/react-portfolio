@@ -1,0 +1,15 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav li a{
+color: white;
+text-decoration: none;
+font-size: 28px;
+}
+
+.nav li {
+    margin:1% 2% 0 0;
+}
