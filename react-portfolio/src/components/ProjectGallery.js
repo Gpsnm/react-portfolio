@@ -6,25 +6,46 @@ import projects from './projects.json'
 
 function ProjectGallery() {
   return (
-    <div className="project-container" id="project">
+    <div className="container" id="project">
+      <h1>Some Of My Work.</h1>
+      <div className="row">
       <Project
       title= {projects[0].title}
       github= {projects[0].github}
       deployed= {projects[0].deployed}
       description = {projects[0].description}
-
       />
       <Project
-      title= {projects[1].title}
-      github= {projects[1].github}
-      deployed= {projects[1].deployed}
-      description = {projects[1].description}
-
+      title= {projects[0].title}
+      github= {projects[0].github}
+      deployed= {projects[0].deployed}
+      description = {projects[0].description}
       />
-      <Project/>
-      <Project/>
-      <Project/>
-      <Project/>
+      </div>
+      <div className="row">
+      <Project       
+      title= {projects[0].title}
+      github= {projects[0].github}
+      deployed= {projects[0].deployed}
+      description = {projects[0].description}/>
+      <Project       
+      title= {projects[0].title}
+      github= {projects[0].github}
+      deployed= {projects[0].deployed}
+      description = {projects[0].description}/>
+      </div>
+      <div className="row">
+      <Project
+      title= {projects[0].title}
+      github= {projects[0].github}
+      deployed= {projects[0].deployed}
+      description = {projects[0].description}/>
+      <Project       
+      title= {projects[0].title}
+      github= {projects[0].github}
+      deployed= {projects[0].deployed}
+      description = {projects[0].description}/>
+    </div>
     </div>
   );
 }

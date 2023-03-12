@@ -9,7 +9,7 @@ import NavRoute from './components/NavRoute';
 function App() {
   return (
     <Router>
-      <div>
+      <div className='home'>
         <NavRoute />
         {/* Wrap Route elements in a Routes component */}
         <Routes>

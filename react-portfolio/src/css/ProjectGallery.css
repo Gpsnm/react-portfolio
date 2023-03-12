@@ -1,6 +1,4 @@
-.project-container {
+.container-fluid {
     background-color: black;
-    display: grid;
-    height: auto;
-    grid-template-columns: 1fr 1fr;
 }
+

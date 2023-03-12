@@ -4,7 +4,8 @@
       "title": "iRecipe",
       "github": "https://github.com/samueltuki/iRecipe",
       "deployed": "https://samueltuki.github.io/iRecipe/",
-      "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes."
+      "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes.",
+      "image":"../images/samueltuki.github.io_iRecipe_.png"
     },
     {
         "title": "Project 2",
