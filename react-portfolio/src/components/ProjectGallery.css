@@ -1,11 +1,6 @@
-
-.card{
-    background-color: aqua;
-    height: 300px;
-    width: 300px;
-}
-
-.content li{
-    color: white;
-    text-decoration: none;
+.project-container {
+    background-color: black;
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr 1fr;
 }

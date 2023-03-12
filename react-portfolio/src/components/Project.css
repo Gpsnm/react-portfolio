@@ -1,16 +1,11 @@
 
-
-.project-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-
-
-
 .card{
-    width: 50%;
-    background-color: gold;
+    width: 70%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 

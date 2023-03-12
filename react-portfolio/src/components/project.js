@@ -2,9 +2,7 @@ import React from "react";
 import'./Project.css'
 function Project(props) {
   return (
-    <div className="project-container">
     <div className="card">
-     
       <div className="content">
         <ul>
           <li>
@@ -19,7 +17,6 @@ function Project(props) {
         </ul>
       </div>
     </div> 
-    </div>
   );
 }
 
