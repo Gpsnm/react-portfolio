@@ -1,5 +1,5 @@
 import React from "react";
-import'./Project.css'
+import'../css/Project.css'
 function Project(props) {
   return (
     <div className="card">
@@ -14,6 +14,7 @@ function Project(props) {
           <li>
             {props.deployed}
           </li>
+          <li>{props.description}</li>
         </ul>
       </div>
     </div> 

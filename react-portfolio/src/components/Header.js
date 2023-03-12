@@ -1,13 +1,13 @@
 import React from "react"
-import './Header.css'
+import '../css/Header.css'
 const Header = () => {
     return (
       <nav>
         <div className='navBar'>
           <ol>
-          <li><a href="./Home.js">Home</a></li>
-          <li><a href="./project.js">Project</a></li>
-          <li><a href="./Contact.js">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
           </ol>
         </div>
       </nav>
