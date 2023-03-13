@@ -13,8 +13,8 @@ const Project = (props) => {
         <p>{props.description}</p>
       </div>
       <div className="card-links">
-        <a href={props.deployed}>Live</a>
-        <a href={props.github}>Github</a>
+        <a target="_blank"  href={props.deployed} rel="noreferrer">Live</a>
+        <a target="_blank" href={props.github} rel="noreferrer">Github</a>
 
       </div>
     </div>
