@@ -3,7 +3,7 @@ import React from "react";
 import'../css/Project.css'
 import image from '../images/samueltuki.github.io_iRecipe_.png'
 
-function Project(props) {
+const Project = (props) => {
   return (
     <div className="card-container">
       <div className="card-image">

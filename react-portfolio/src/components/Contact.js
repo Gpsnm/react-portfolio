@@ -1,60 +1,55 @@
-import React from "react";
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import '../css/Contact.css'
 
-function Contact() {
-    return(
-      <div className="contact">
+const ContactForm = () => {
+  const [state, handleSubmit] = useForm("xgebzygw");
+  return (
+    <div className='form-container'>
+      <div className='form-wrapper'>
+      <form onSubmit={handleSubmit} className="form">
+       <h2>Get in Touch</h2>
+      <label htmlFor="name">
+      Name
+      </label>
+      <input
+        id="name"
+        type="name" 
+        name="name"
+      />
+      <label htmlFor="email">
+        Email Address
+      </label>
+      <input
+        id="email"
+        type="email" 
+        name="email"
+      />
+      <ValidationError 
+        prefix="Email" 
+        field="email"
+        errors={state.errors}
+      />
+      <textarea
+        id="message"
+        name="message"
+      />
+      <ValidationError 
+        prefix="Message" 
+        field="message"
+        errors={state.errors}
+      />
+      <button type="submit" disabled={state.submitting} className="submit">
+        Submit
+      </button>  
+    </form>
+    <div className='socials'>
+      <h2>How to Reach Me</h2>
+      <div className='Linkedin'>linkedin</div>
 
-        <section class="contact-wrap">
-  <form action="" class="contact-form">
-    <div class="col-sm-6">        
-    <h2>Contact Me</h2>
-      <div class="input-block">
-        <label for="">First Name</label>
-        <input type="text" class="form-control"></input>
-      </div>
     </div>
-    <div class="col-sm-6">
-      <div class="input-block">
-        <label for="">Last Name</label>
-        <input type="text" class="form-control"></input>
-      </div>
     </div>
-    <div class="col-sm-12">
-      <div class="input-block">
-        <label for="">Email</label>
-        <input type="text" class="form-control"></input>
-      </div>
     </div>
-    <div class="col-sm-12">
-      <div class="input-block">
-        <label for="">Message Subject</label>
-        <input type="text" class="form-control"></input>
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <div class="input-block textarea">
-        <label for="">Drop your message here</label>
-        <textarea rows="3" type="text" class="form-control"></textarea>
-      </div>
-    </div>
-    <div class="col-sm-12">
-      <button class="square-button">Send</button>
-    </div>
-  </form>
-  </section>
-  <div className="footer">
-    <ul>
-      <li>Github</li>
-      <li>Github</li>
-      <li>Github</li>
-      <li>Github</li>
+  )};
 
-    </ul>
-  </div>
-      </div>
-      
-    )
-}
-
-export default Contact;
+  export default ContactForm;
