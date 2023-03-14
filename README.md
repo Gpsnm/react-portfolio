@@ -1,5 +1,5 @@
 
-#React Portfolio
+# React Portfolio
 
 ## Description
 My personal portfolio created using React.js
