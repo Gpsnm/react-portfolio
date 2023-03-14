@@ -17,6 +17,7 @@ function ProjectGallery() {
       description = {projects[0].description}
       />
       <Project
+      image = {projects[1].image}
       title= {projects[1].title}
       github= {projects[1].github}
       deployed= {projects[1].deployed}
@@ -24,24 +25,28 @@ function ProjectGallery() {
       />
       </div>
       <div className="row">
-      <Project       
+      <Project 
+      image = {projects[2].image}       
       title= {projects[2].title}
       github= {projects[2].github}
       deployed= {projects[2].deployed}
       description = {projects[2].description}/>
-      <Project       
+      <Project  
+      image = {projects[3].image}      
       title= {projects[3].title}
       github= {projects[3].github}
       deployed= {projects[3].deployed}
       description = {projects[3].description}/>
       </div>
       <div className="row">
-      <Project
+      <Project 
+      image = {projects[4].image}
       title= {projects[4].title}
       github= {projects[4].github}
       deployed= {projects[4].deployed}
       description = {projects[4].description}/>
-      <Project       
+      <Project 
+      image = {projects[5].image}       
       title= {projects[5].title}
       github= {projects[5].github}
       deployed= {projects[5].deployed}

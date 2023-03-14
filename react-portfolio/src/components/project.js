@@ -1,12 +1,12 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
+
 import React from "react";
 import'../css/Project.css'
-
+const image = "/images/"
 const Project = (props) => {
   return (
     <div className="card-container">
       <div className="card-image">
-        <img src={props.image} alt="project screen shot"></img>
+        <img src={process.env.PUBLIC_URL + image + props.image} alt="project screenshot"></img>
       </div>
       <div className="card-text">
         <h3>{props.title}</h3>
