@@ -73,3 +73,18 @@ margin: 20px;
     color: white;
 }
 
+/* media queries for form */
+
+@media only screen and (max-width:600px) {
+.form-wrapper{
+    width: 95%;
+    height: 70%;
+}
+form input{
+    width: 75%;
+}
+form textarea{
+    width: 75%;
+}
+    
+}
