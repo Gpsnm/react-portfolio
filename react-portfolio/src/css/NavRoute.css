@@ -13,3 +13,11 @@ font-size: 28px;
 .nav li {
     margin:1% 2% 0 0;
 }
+
+/* aligns nav center below 600px */
+@media only screen and (max-width: 600px){
+    .nav{
+        justify-content: center;
+    }
+
+}
