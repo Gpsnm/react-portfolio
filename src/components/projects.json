@@ -1,0 +1,54 @@
+
+
+[
+    {
+
+      "title": "iRecipe",
+      "github": "https://github.com/samueltuki/iRecipe",
+      "deployed": "https://samueltuki.github.io/iRecipe/",
+      "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes.",
+      "image":"project1.png"
+    
+    },
+    {
+        "title": "Weather forecast Dashboard",
+        "github": "https://github.com/Gpsnm/5DayWeatherForcastDashboard",
+        "deployed": "https://gpsnm.github.io/5DayWeatherForcastDashboard/",
+        "description": "A 5 day forecast page that uses information fetched from a third party api. I learned about fetch requests and breaking down json data.",
+      "image":"project2.png"
+
+
+    },
+    {
+        "title": "Work Day Planner",
+        "github": "https://github.com/Gpsnm/WorkDayPlanner",
+        "deployed": "https://gpsnm.github.io/WorkDayPlanner/",
+        "description": "A planner based on a standard 9 to 5 work day. Users are possible to input plans for there day and save using local storage, another feature i implemented is color co-ordination based on past present or future.",
+      "image":"project3.png"
+
+    },
+    {
+        "title": "Random password Generator",
+        "github": "https://github.com/Gpsnm/RandomPasswordGen",
+        "deployed": "https://gpsnm.github.io/RandomPasswordGen/",
+        "description": "A random password generator that asks a series of questions through prompts then creates a random password based on the answers you input.",
+      "image":"project4.png"
+
+    },
+    {
+        "title": "My Portfolio",
+        "github": "https://github.com/Gpsnm/AdamWilletts",
+        "deployed": "gpsnm.github.io/AdamWilletts/",
+        "description": "My First portfolio created with HTML,CSS AND JS. I had a lot of fun creating this mobile first portfolio and learned a lot about media queries along the way.",
+      "image":"project5.png"
+
+    },
+    {
+        "title": "Refactor Challenge",
+        "github": "https://github.com/Gpsnm/code-refactor",
+        "deployed": "https://gpsnm.github.io/code-refactor/",
+        "description": "This was the first weeks assignment for my boot-camp. I had to refactor someone elses code to make it accessible",
+      "image":"project6.png"
+
+    }
+  ]
