@@ -10,10 +10,7 @@ Completing this project has allowed me to learn a lot about using react as a who
 ## Tech Stack
 React Npm Bootstrap.
 
-##Sceenshot
-
-
-<img src="../src/profileImg/react-portfolio-one-coral.vercel.app_contact (1).png" alt="">
+<img src="./src/profileImg/react-portfolio-one-coral.vercel.app_contact (1).png" alt="">
 
 ## LiveLink
 https://react-portfolio-one-coral.vercel.app/
