@@ -2,7 +2,6 @@ import React from "react";
 import Project from "./project";
 import '../css/ProjectGallery.css'
 import projects from './projects.json'
-import '../images/samueltuki.github.io_iRecipe_.png'
 
 
 function ProjectGallery() {
