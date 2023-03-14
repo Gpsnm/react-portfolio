@@ -1,1 +1,16 @@
-# react-portfolio
+
+#React Portfolio
+
+## Description
+My personal portfolio created using React.js
+
+## Lessons Learned
+Completing this project has allowed me to learn a lot about using react as a whole, specifically react router , dynamically creating cards using props, importing and exporting components and styling each component. 
+
+## Tech Stack
+React Npm Bootstrap.
+##Sceenshot
+
+
+## LiveLink
+https://react-portfolio-one-coral.vercel.app/
